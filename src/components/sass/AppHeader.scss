@@ -1,0 +1,90 @@
+.App-lang {
+  z-index: 999;
+  position: absolute;
+  right: 4vw;
+  top: 1rem;
+}
+.App-lang i {
+  cursor: pointer;
+}
+.App-backg {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.App-backg-pt {
+  background-image: url(../../assets/image/background_pt.png);
+}
+.App-backg-en {
+  background-image: url(../../assets/image/background_en.png);
+}
+.App-btn-contact {
+  width: 18rem;
+  height: 6rem;
+  
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: #17103C;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 6rem;
+  letter-spacing: 1px;
+  
+  position: absolute;
+  top: 40vh;
+  right: 14vw;
+  transition: 0.3s;
+  margin: 3rem;
+  cursor: pointer;
+  z-index: 99;
+}
+.locale {
+  position: absolute;
+  top: 64vh;
+  right: 20vw;
+  display: flex;
+}
+.locale svg {
+  width: auto;
+  height: 1.3rem;
+  margin-right: 0.4rem;
+}
+
+.App-btn-contact::before,
+.App-btn-contact::after {
+  content: '';
+  position: absolute;
+  width: inherit;
+  height: inherit;
+  top: 0;
+  left: 0;
+  transition: 0.3s;
+  border-radius: 1.4rem;
+}
+
+.App-btn-contact::before {
+  background-color: #FF4081;   /* fundo cor rosa */
+  z-index: -1;
+  box-shadow: 0.2rem 0.2rem 0.5rem rgba(0, 0, 0, 0.2);
+}
+
+.App-btn-contact::after {
+  border: 3px solid #17103C; /* contorno cor azul */
+  transform: translate(1.5rem, 1.5rem);
+  z-index: -2;
+}
+
+.App-btn-contact:hover {
+  transform: translate(1.5rem, 1.5rem);
+  color: #17103C; /* cor da font */
+}
+
+.App-btn-contact:hover::before {
+  background-color: #FF4081; /* fundo cor rosa */
+}
+
+.App-btn-contact:hover::after {
+  border-color: rgba(23, 16, 60, 0.03); /* opacidade da borda */
+  transform: translate(-0.3rem, -0.3rem);
+}

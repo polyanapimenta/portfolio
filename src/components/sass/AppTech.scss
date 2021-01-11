@@ -1,0 +1,35 @@
+.title {
+  font-weight: 400;
+  font-size: 2.4rem;
+  color: #17103C;
+  line-height: 2;
+
+  p {
+    font-weight: bold;
+    color: #FF4081;
+  }
+  
+  span {
+    color: #17103C;
+    &:after {
+      content: ' />';
+      color: #FF4081;
+    }
+    &:before {
+      content: '< ';
+      color: #FF4081;
+    }
+  }
+}
+
+.subtitle {
+  color: #17103C;
+  font-size: 400;
+  display: flex;
+  flex-direction: column;
+
+  &:after {
+    margin-top: .6rem;
+    content: url(../../assets/icons/triangle.svg);
+  }
+}

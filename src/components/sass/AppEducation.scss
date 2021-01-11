@@ -1,0 +1,46 @@
+.AppEducation {
+  display: flex;
+  justify-content: center;
+
+  h2 {
+    color: #FF4081;
+    margin-left: 0.8rem;
+    
+    small {
+      color: #535353;
+      font-size: 1rem;
+      float: right;
+    }
+
+    p {
+      margin-top: 0.6rem;
+      color: #17103C;
+    }
+  }
+}
+.ui.fluid.image.premiacao-image img  {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.premiacao-box {
+  background-color: #E8E8E8;
+  color: #5D5D6A;
+  padding: 1.8rem;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  
+  h4 {
+    margin-bottom: 0.2rem;
+  }
+}
+
+.my-0 {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.d-flex {
+  display: flex;
+  align-items: center;
+}
