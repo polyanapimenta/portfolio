@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/portifolio/static/css/main.35e9dc87.chunk.css",
+    "main.js": "/portifolio/static/js/main.063bdfd3.chunk.js",
+    "main.js.map": "/portifolio/static/js/main.063bdfd3.chunk.js.map",
+    "runtime-main.js": "/portifolio/static/js/runtime-main.4a3ca979.js",
+    "runtime-main.js.map": "/portifolio/static/js/runtime-main.4a3ca979.js.map",
+    "static/css/2.05bd92c4.chunk.css": "/portifolio/static/css/2.05bd92c4.chunk.css",
+    "static/js/2.bb4a5f7f.chunk.js": "/portifolio/static/js/2.bb4a5f7f.chunk.js",
+    "static/js/2.bb4a5f7f.chunk.js.map": "/portifolio/static/js/2.bb4a5f7f.chunk.js.map",
+    "index.html": "/portifolio/index.html",
+    "precache-manifest.c71e3ce5cbee44d2601447712d3f4699.js": "/portifolio/precache-manifest.c71e3ce5cbee44d2601447712d3f4699.js",
+    "service-worker.js": "/portifolio/service-worker.js",
+    "static/css/2.05bd92c4.chunk.css.map": "/portifolio/static/css/2.05bd92c4.chunk.css.map",
+    "static/css/main.35e9dc87.chunk.css.map": "/portifolio/static/css/main.35e9dc87.chunk.css.map",
+    "static/js/2.bb4a5f7f.chunk.js.LICENSE.txt": "/portifolio/static/js/2.bb4a5f7f.chunk.js.LICENSE.txt",
+    "static/media/AppHeader.scss": "/portifolio/static/media/background_pt.b44f89ca.png",
+    "static/media/semantic.css": "/portifolio/static/media/outline-icons.f89ea91e.woff",
+    "static/media/email.0d7907f4.svg": "/portifolio/static/media/email.0d7907f4.svg",
+    "static/media/emoji_polyana_notebook.png": "/portifolio/static/media/emoji_polyana_notebook.89e4d7ad.png",
+    "static/media/github.0c0d0a7b.svg": "/portifolio/static/media/github.0c0d0a7b.svg",
+    "static/media/linkedin.14f7b675.svg": "/portifolio/static/media/linkedin.14f7b675.svg",
+    "static/media/maps.7c9810df.svg": "/portifolio/static/media/maps.7c9810df.svg",
+    "static/media/polyanapimenta.png": "/portifolio/static/media/polyanapimenta.38afd189.png",
+    "static/media/premiacao-2018.gif": "/portifolio/static/media/premiacao-2018.74b17592.gif",
+    "static/media/premiacao-2019.gif": "/portifolio/static/media/premiacao-2019.04702830.gif",
+    "static/media/print.1b875891.svg": "/portifolio/static/media/print.1b875891.svg",
+    "static/media/AppTech.scss": "/portifolio/static/media/triangle.c2b96e81.svg",
+    "static/media/whatsapp.d2bf24b1.svg": "/portifolio/static/media/whatsapp.d2bf24b1.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4a3ca979.js",
+    "static/css/2.05bd92c4.chunk.css",
+    "static/js/2.bb4a5f7f.chunk.js",
+    "static/css/main.35e9dc87.chunk.css",
+    "static/js/main.063bdfd3.chunk.js"
+  ]
+}
